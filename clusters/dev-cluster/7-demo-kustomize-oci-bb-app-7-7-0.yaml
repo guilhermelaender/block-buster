@@ -13,7 +13,7 @@ spec:
   path: ./
   prune: true
   sourceRef:
-    kind: GitRepository
+    kind: OCIRepository
     name: 7-demo-source-oci-bb-app-7-7-0
   targetNamespace: 7-demo
   timeout: 2m0s
